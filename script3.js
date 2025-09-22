@@ -102,7 +102,7 @@ for(let i = 0;i <= 100; i++){
     }
 };
 */
-
+/*
 //Q2. create a game where you start with any random game no.Ask the user to keep guessing game no until user enters correct no.
 let no = 27;
 let i = prompt("Guess the game no : ");
@@ -112,6 +112,69 @@ while(i!= no){
     i = prompt("You entered wrong no... Try again : ")
 }
 console.log("Congrats right guess...")
+*/
+/*
+//--Strings    //\n-next line, \t- tab space
+let str = "Hello There RK...";
+console.log(str[15]);
+console.log(str.length);
+
+//--Template Literals
+let specialstr = `This is special string...`
+console.log(typeof specialstr);
+
+let Object={
+    item : "pen",
+    price : 10
+};
+
+let output = `The cost of ${Object.item} is ${Object.price} Rs...`;
+
+console.log(output);
+*/
+/*
+//--String Methods
+//str.toUpperCase & str.toLowercase   //converts full str to upper case.
+let str = "Hello Star...";
+console.log(str);
+let newstr = str.toUpperCase();
+console.log(newstr);
+let new1str = str.toLowerCase();
+console.log(new1str);
+
+//str.trim()    //removes white from spaces starting and ending of str.
+let  a = "       Hello Shooting star...      " 
+console.log(a.trim());
+
+//str.slice(start,end?)      ///returns part of str.
+let str2 = "Hello RK how are you?"
+
+console.log(str2.slice(2,15));
+
+//str1.concat(str2)    ///joins str2 with str1.
+let str3 = "Hello";
+let str4 = "RK...";
+result = str3.concat(str4);
+console.log(result);
+res = str3 + str4;
+console.log(res);
+
+//srt.replace(searchVal, newVal)
+let str5 = "Yello."
+console.log(str5.replace("Y","H"));
+
+//str.charAt(idx)
+let str6 = "No way!";
+console.log(str6.charAt(6));
+*/
+
+//Q1. prompt user to enter full name. generate username for the user based on input.start username with@, followed by their full name ans ending with fullname length.
+let str = prompt("Enter your full name : ");
+
+console.log("@"+str+str.length);
+
+
+
 
 
 
