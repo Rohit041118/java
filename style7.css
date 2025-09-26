@@ -1,0 +1,14 @@
+.box{
+    width: 200px;
+    height: 200px;
+    font-size: 40px;
+    background-color: aquamarine;
+    font-family: "Pixelify Sans";
+    align-content: center;
+    color: blue;
+}
+.li{
+    color: black;
+    padding-top: 100px;
+    margin-top: 100px;
+}
