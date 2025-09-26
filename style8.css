@@ -1,0 +1,36 @@
+div{
+    font-size: 25px;
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    align-content: center;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+button{
+    margin: 5px;
+    
+}
+
+.dark{
+    background-color: black;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+.light{
+    background-color: white;
+    color: black;
+        transition: background-color 0.5s ease;
+
+}
+
+#hover {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid black;
+    /* Make the element clearly visible */
+    display: inline-block; 
+    margin-top: 20px;
+}
