@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(39, 39, 39);
+    margin: 10px;
+}
+
+
+h1{
+    color: gold;
+    text-align: center;
+    margin: 80px;
+    font-family: "Pixelify Sans";
+    background-color: rgb(59, 71, 94);
+    
+    
+}
+
+.choices{
+    margin-top: 100px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;   
+    border-radius: 50%;
+
+
+}
+
+.choice img{
+    height: 165px;
+    width: 165px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.choice img:hover{
+    opacity : 0.5;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.choice p{
+    color: silver;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.score-board{
+    color: magenta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#user-score, #comp-score{
+    font-size: 5rem;
+}
+
+.score{
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-container{
+    
+    margin-top: 5rem;
+}
+
+#msg{
+    color: indianred;
+    background-color: rgb(9, 9, 9);
+    font-size: 2rem;
+    display: inline;
+    border-radius: 1rem;
+    padding: 1rem;
+}
